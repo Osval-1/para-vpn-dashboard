@@ -2,6 +2,10 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      'inter': ['"inter"',"sans-serif"],
+      "mont":['"montserrat"',"sans-serif"],
+    },
     extend: {
       colors: {
         border: {
@@ -11,6 +15,11 @@ export default {
         text: {
           blue: "#1814F3",
           grey: "#B1B1B1",
+          header: "#343C6A",
+          body:"#718EBF"
+        },
+        background: {
+          input: "#F5F7FA",
         },
       },
     },

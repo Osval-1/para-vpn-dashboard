@@ -1,21 +1,15 @@
-import React from 'react'
-import { logo } from '../../assets'
-import SidebarItem from '../SideBarItem'
+import React from "react";
+import { dashboard} from "../../assets";
+import SidebarItem from "../SideBarItem";
 
-const SideBar  = () => {
+const SideBar = () => {
   return (
-    <section className='border w-1/4 h-screen'>
-        <section>
-            <figure>
-            <img src={logo} alt="logo" />
-            </figure>
-        </section>
-        <section>
-            <SidebarItem/>
-        </section>
-      
+    <section className="border-r w-1/5 h-screen">
+      <section>
+        <SidebarItem itemName="Dashboard" image={dashboard} />
+      </section>
     </section>
-  )
-}
+  );
+};
 
-export default SideBar
+export default SideBar;
