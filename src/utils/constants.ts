@@ -1,6 +1,6 @@
 export const cardData = [{
-    header:"Life Insurance",
-    body:"Unlimited protection"
+    header:"Add Server",
+    body:"Create a  server"
 },{
     header:"Shopping",
     body:"Buy. Think. Grow."

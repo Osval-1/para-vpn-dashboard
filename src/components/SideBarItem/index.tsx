@@ -11,7 +11,7 @@ const SidebarItem = ({ itemName, image }: SideBarItemProps) => {
         borderLeft:"4px solid blue"
     }}>
       <img src={image} alt="sidebar item"className="w-5 h-5" />
-      <p className="text-base text-text-grey font-inter">{itemName}</p>
+      <p className="text-base font-inter font-bold text-text-blue">{itemName}</p>
     </section>
   );
 };
