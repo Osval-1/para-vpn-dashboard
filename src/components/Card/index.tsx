@@ -2,13 +2,13 @@ type CardProps = {
   header: string;
   body: string;
   icon: string;
-  onclick: () => void;
+  onclick?: () => void;
 };
 
 const Card = ({ header, body, icon, onclick }: CardProps) => {
   return (
     <section
-      className="bg-white w-[350px] h-[100px] rounded-3xl flex flex-row px-12 items-center gap-5 cursor-pointer"
+      className="bg-white sm:w-full md:w-[300px] h-[100px] rounded-3xl flex flex-row px-8 items-center gap-5 cursor-pointer"
       onClick={onclick}
     >
       <figure>

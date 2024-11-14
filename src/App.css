@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    button {
+      @apply focus:outline-none;
+    }
+    a {
+      @apply outline-none;
+    }
+  }

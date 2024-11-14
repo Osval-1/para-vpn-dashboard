@@ -1,5 +1,3 @@
-import React from "react";
-
 type ButtonProps = {
   label: string;
   onclick: () => void;

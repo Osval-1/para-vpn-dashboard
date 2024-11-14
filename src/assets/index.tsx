@@ -10,7 +10,8 @@ import stats from "../../public/svg/stats.svg";
 import server from "../../public/svg/server.svg";
 import menu from "../../public/svg/menu.svg";
 import header_search from "../../public/svg/header_search.svg";
-
+import edit from "../../public/svg/edit.svg";
+import del from "../../public/svg/delete.svg";
 
 const cardAssets = [add_vpn, ratings, stats];
 export {
@@ -23,5 +24,7 @@ export {
   cardAssets,
   server,
   menu,
-  header_search
+  header_search,
+  edit,
+  del
 };
