@@ -14,11 +14,14 @@ const Main = () => {
     country: "",
     countryImage: "",
     _id: "",
+    dataRate:[],
+    strength:[]
   });
 
   const { data } = useQuery({
     queryKey: ["get_servers"],
     queryFn: getServer,
+    refetchInterval:5000
   });
   const deleteServerMutation = useMutation({
     mutationFn: deleteServer,
