@@ -4,10 +4,13 @@
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ],
-  // "compilerOptions": {
-  //   "baseUrl": "./",
-  //   "paths": {
-  //     "@/*": ["./src/*"]
-  //   }
-  // }
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "include": ["src", "./src/test/setup.ts"],
+    //   "@/*": ["./src/*"],
+
+  },
+  "types": ["vitest/globals"],
+},
 }
