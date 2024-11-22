@@ -8,7 +8,7 @@ describe("Card",()=>{
         render(<Card header="Add Servers" body="add new servers to server" icon="img/2" onclick={()=>{}}/> )
         expect(screen.getByText("Add Servers")).toBeInTheDocument()
         expect(screen.getByText("add new servers to server")).toBeInTheDocument()
-        screen.debug()
+        // screen.debug()
     })
     it("Card onClick handler Fires on click",async()=>{
         const handleClick = vi.fn()

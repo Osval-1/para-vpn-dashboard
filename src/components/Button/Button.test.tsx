@@ -7,7 +7,7 @@ describe("Button", () => {
   it("renders Button conponent", () => {
     render(<Button label="Press Me" onclick={() => {}} />);
     expect(screen.getByText("Press Me")).toBeInTheDocument();
-    screen.debug();
+    // screen.debug();
   });
   it(" Button onclick handler fires when clicked", async () => {
     const handleClick = vi.fn();
